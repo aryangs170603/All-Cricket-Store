@@ -135,7 +135,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* New Styles for Cart Icon and Animation */
+
 .cart-icon {
     position: relative;
     cursor: pointer;
@@ -180,7 +180,7 @@ button:hover {
     </header>
 
     <main id="products">
-        <!-- Products will be dynamically added here -->
+       
     </main>
 
     <!-- Cart Modal -->
@@ -193,7 +193,7 @@ button:hover {
         </div>
     </div>
     <script>
-        // JavaScript Logic
+        // JavaScript 
 const products = [
     {
         id: 1,
@@ -233,7 +233,7 @@ const products = [
     },
 ];
 
-let cart = []; // Array to hold cart items
+let cart = []; 
 
 function displayProducts() {
     const productsContainer = document.getElementById("products");
@@ -275,7 +275,7 @@ function showItemAddedAnimation(product) {
         cartIcon.classList.remove("clicked");
     }, 500);
 
-    // You can customize further animation or notification here
+    
 }
 
 function showCart() {
@@ -304,7 +304,7 @@ function updateCartDisplay() {
 }
 
 function checkout() {
-    // Implement checkout functionality (e.g., redirect to checkout page)
+   
     alert("Redirecting to checkout page...");
 }
 
