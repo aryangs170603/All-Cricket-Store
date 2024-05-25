@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - E-commerce Store</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url(https://t3.ftcdn.net/jpg/01/88/04/82/360_F_188048273_6dO5ttIvlZd4ODDAtaq8znbSPYR3Bcc7.jpg);
+        }
+
+        header {
+            background-color: #201f1f;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #23ba25;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #bce8ff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #403d3d;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        /* Cart Icon Styles */
+        .cart-icon {
+            position: relative;
+            cursor: pointer;
+            display: inline-flexbox;
+            margin-right: 20px;
+        }
+
+        .cart-icon::after {
+            content: attr(data-count);
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: #23ba25;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            transition: transform 0.3s ease;
+            transform: scale(0);
+        }
+
+        .cart-icon.clicked::after {
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All Cricket Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="cart-icon" onclick="showCart()" data-count="0">Cart</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to All Cricket Store, your ultimate destination for all things for cricket! We are passionate about providing cricket enthusiasts with top-quality cricket equipment, accessories, and apparel at competitive prices.</p>
+            <p>At All Cricket Store, we understand the importance of having the right gear to enhance your performance on the field. Whether you're a seasoned professional or just starting out, we have everything you need to excel in the sport.</p>
+            <p>Our mission is to make high-quality cricket gear accessible to players of all levels, ensuring that everyone can enjoy the game to the fullest. With a wide selection of products from leading brands and exceptional customer service, we strive to be your go-to destination for all your cricketing needs.</p>
+            <p>Thank you for choosing All Cricket Store. Let's play cricket!</p>
+        </section>
+    </main>
+
+    <!-- Include your footer here if needed -->
+
+    <!-- Cart Modal -->
+    <!-- Include your cart modal code here -->
+
+    <script>
+        // Your JavaScript code
+        // Include any JavaScript code specific to the about page if needed
+    </script>
+</body>
+</html>
